@@ -147,7 +147,7 @@ run;
 
 
 
-/*summing the amount for each admission corresponding to each patient_id*/
+/*summ the amount for each admission corresponding to each patient_id*/
  
 proc sql;
 create table Health.Final_table_Descriptive_stat as
@@ -276,8 +276,6 @@ race1= input(race, 7.);
 medical_history_3N=input(medical_history_3, 2.);
 Gender1=input(Gender,6.);
 run;
-
-
 
 /*preparing the final table and keeping only needed 
 variables for descriptive analysis*/
