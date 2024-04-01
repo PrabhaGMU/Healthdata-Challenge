@@ -23,9 +23,9 @@ Pearson Correlation
 -Correlation for other continuous variables were conducted. 
 
 
-
 T-test statistics
--Displaying actual t-test results, and the fourth table contains the "Equality of Variances" test results: for variables Gender (Male:0 and Female:1) against Total cost
+-Displaying actual t-test results, and the fourth table contains the "Equality of Variances" test results:
+for variables Gender (Male:0 and Female:1) against Total cost
 Observation
 -Since p >.0001 is greater than our chosen significance level α = 0.05 ,we conclude that males and females are not statistically significant to total cost.
 -the dependent variable(total cost) -- that is, the continuous numeric variable -- to use in the test. 
@@ -36,7 +36,7 @@ Multiple Linear Regression
 Global F test (P-value < .0001) indicates that model is significant for predicting Total Bill cost based on a group of independent variables in the model.
 The value of R-square is 0.286393, which means approximately 28% of the variation in Total Bill cost is explained by the independent variables.
 Based on t-test with the significant level, the p-values for Race, Age, Weight, Medical_history 1 and 6. Also, all symptoms indicated sufficient evidence for predicting the total bill cost. 
-Each parameter represents the mean change in the response variable for every 1-unit increase in the corresponding when all the other x’s are held fixed. For example, the total cost increases with positive values for every independent variable (observed from Estimate column of results).
+Each parameter represents the mean change in the response variable for every 1-unit increase in the corresponding when all the other x’s are held fixed. For example, the total cost increases with positive values for every independent variable (observed from estimate column of results).
 -Based on the p-value, Length of stay is not significantly associated with total bill cost included in the analysis.
 A 95% confidence interval for Symptom_5 is (0.2210034259, 0.2699021884). This means that we are 95% confident that the total cost increases between 0.2210034259 and 0.2699021884 for every 1-symptom increase. Note: A zero in the 95% Confidence Intervals can also indicate that the independent variable is insignificant. 
 
